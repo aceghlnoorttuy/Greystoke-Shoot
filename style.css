@@ -1,0 +1,53 @@
+.top{
+    
+}
+
+body{
+    background-color: #eef2e2;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+  
+table {
+      border-collapse: collapse;
+    }
+    
+td, th {
+      border: 1px solid black;
+    }  
+/*#col1 {
+    background-color: #aeccc6 ;
+}
+#col3 {
+    background-color: #bbe9db;
+}*/
+.columns, .top{display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+div{
+    padding:10px
+}
+.sept tr:nth-child(7n+2),.sept tr:nth-child(7n+8) {
+    background-color: #aeccc6 ;
+}
+
+.oct tr:nth-child(7n+6),.oct tr:nth-child(7n+7) {
+    background-color: #aeccc6 ;
+}
+
+.nov tr:nth-child(7n+3),.nov tr:nth-child(7n+4) {
+    background-color: #aeccc6 ;
+}
+
+.dec tr:nth-child(7n+2),.dec tr:nth-child(7n+8) {
+    background-color: #aeccc6 ;
+}
+
+.jan tr:nth-child(7n+5),.jan tr:nth-child(7n+6) {
+    background-color: #aeccc6 ;
+}
+
+
+
+
